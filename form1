@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>form1</title>
+    </head>
+    <body>
+        <form action=""
+        target="blank"
+        method="POST">
+        <fieldset>
+            <legend>Персональні дані</legend>
+             Введіть свої персональні дані<br>
+             Ваше ім'я:
+        <input type="text"name="first name" required><br>
+             Ваше прізвище:
+        <input type="text"name="last name" required><br>
+        Введіть вашу електронну адресу(не обов'язково)
+        <input type="email" name="email">
+    </fieldset>
+    <fieldset>
+        <legend>Побожання</legend>
+             Виберіть те, що підходить під ваші бажання <br>
+            Тип номеру:
+        <select name="Room" >
+                <option value="Economy ">Економ</option>
+                <option value="Standart">Стандарт</option>
+                <option value="Lux">Люкс</option>
+                <option value="Luxer">Напівлюкс</option>
+                <option value="President">Президентський</option>
+        </select> <br>
+        Дата приїзду:
+        <input type="date" name="data1"> <br>
+        Дата відїзду:
+        <input type="date" name="data2"> <br>
+        <input type="checkbox"> Сніданок <br>
+        <input type="checkbox"> Парковка <br>
+        <input type="checkbox"> Послуги гіда <br>
+        <input type="checkbox"> Тераса <br>
+        <input type="checkbox"> З тваринами <br>
+        <input type="checkbox"> 2-х поверхові номери <br>
+
+    </fieldset>
+    <fieldset>
+        <input type="submit">
+        <input type="reset">
+    </fieldset>
+        </form>
+    </body>
+</html>
